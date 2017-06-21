@@ -1,0 +1,15 @@
+# Eclipse Files
+/.classpath
+/.buildpath
+/.project
+/.settings/
+
+
+# Managed by Composer
+/bin/*
+/vendor/
+/docs/
+
+# Composer
+/composer.phar
+/composer.lock

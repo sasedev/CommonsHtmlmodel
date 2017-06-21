@@ -1,0 +1,45 @@
+{
+	"name" : "sasedev/commons-htmlmodel",
+	"description" : "Groups of classes that represents html(5) elements and attributes",
+	"keywords" : [
+		"html",
+		"html5",
+		"php",
+		"php7"
+	],
+	"authors" : [{
+			"name" : "Salah Abdelkadeur Seif Eddine",
+			"email" : "seif.salah@gmail.com"
+		}
+	],
+	"license" : "MIT",
+	"type" : "library",
+	"require" : {
+		"php" : ">=7.0",
+		"myclabs/php-enum" : "^1.5"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^6.1"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"" : "src"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"" : "tests"
+		}
+	},
+	"config" : {
+		"bin-dir" : "bin",
+		"vendor-dir" : "vendor",
+		"component-dir" : "vendor",
+		"process-timeout" : 1200
+	},
+	"extra" : {
+		"branch-alias" : {
+			"dev-master" : "1.0.x-dev"
+		}
+	}
+}
